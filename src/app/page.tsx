@@ -10,7 +10,7 @@ export default function Scoreboard() {
   const [faultsBlueCat2, setFaultsBlueCat2] = useState(0);
   const [time, setTime] = useState(180);
   const [running, setRunning] = useState(false);
-  const [senchu, setSenchu] = useState("");
+  const [senchu] = useState("");
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
