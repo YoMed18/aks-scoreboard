@@ -1,5 +1,4 @@
-'use client';
-
+"use client"
 import { useState, useEffect } from "react";
 
 export default function Scoreboard() {
@@ -11,7 +10,7 @@ export default function Scoreboard() {
   const [faultsBlueCat2, setFaultsBlueCat2] = useState(0);
   const [time, setTime] = useState(180);
   const [running, setRunning] = useState(false);
-  const [senchu] = useState("");
+  const [senchu, setSenchu] = useState("");
 
   useEffect(() => {
     let timer: NodeJS.Timeout;
